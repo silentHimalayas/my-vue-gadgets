@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.10.1",
+    "quill-image-drop-module": "^1.0.3",
+    "quill-image-resize-module": "^3.0.0",
     "vue": "^2.6.10",
+    "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.0.7"
   },
   "devDependencies": {
@@ -19,6 +23,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
