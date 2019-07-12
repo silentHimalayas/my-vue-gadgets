@@ -1,19 +1,23 @@
 <template>
-  <div>
-    12312
-    <router-view></router-view>
+  <div class="app-container">
+    <side-bar></side-bar>
+    <div class="router-container">
+      <router-view ></router-view>
+    </div>
   </div>
 </template>
-
 <script>
 
+import sideBar from '@/components/layout/sideBar.vue';
 export default {
   name: 'app',
-  components: {}
+  components: {
+    sideBar
+  }
 }
 </script>
 
-<style>
+<style lang='less'>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,5 +25,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.app-container {
+  display: flex;
+  .router-container {
+    padding: 10px;
+    flex: 1;
+  }
 }
 </style>
