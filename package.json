@@ -14,7 +14,7 @@
     "quill-image-resize-module": "^3.0.0",
     "vue": "^2.6.10",
     "vue-quill-editor": "^3.0.6",
-    "vue-router": "^3.0.7"
+    "vue-router": "^3.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
