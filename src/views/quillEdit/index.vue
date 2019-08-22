@@ -45,13 +45,13 @@ export default {
   },
   methods: {
     onEditorBlur (e) {
-      console.log(e, '>>>>>>onEditorBlur')
+      window.console.log(e, '>>>>>>onEditorBlur')
     },
     onEditorFocus (e) {
-      console.log(e, '>>>>>>onEditorFocus')
+      window.console.log(e, '>>>>>>onEditorFocus')
     },
     onEditorReady (e) {
-      console.log(e, '>>>>>>onEditorReady')
+      window.console.log(e, '>>>>>>onEditorReady')
     }
   }
 }

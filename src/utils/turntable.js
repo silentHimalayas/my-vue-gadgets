@@ -41,7 +41,7 @@ export default class Turntable {
   // 初始化事件绑定
   bindEvent () {
     this.dom.addEventListener('click', (e) => {
-      console.log(e, '>>>>>>>>click-e');
+      window.console.log(e, '>>>>>>>>click-e');
       if (Math.abs(e.offsetX - this.clientX) < this.radius / 3 &&  Math.abs(e.offsetY - this.clientY) < this.radius /3) {
         this.start();
       }
